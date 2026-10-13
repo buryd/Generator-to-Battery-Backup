@@ -23,16 +23,14 @@ Shelf prices checked October 12–13, 2026. Freight, sales tax, and the local pe
 | 1 | EG4 6000XP off-grid inverter, 6,000 W, 120/240 V | Signature Solar | 1511090 | $1,499.99 |
 | 1 | EG4 WallMount Indoor battery, 14.3 kWh, 51.2 V, 280 Ah | Signature Solar | 1511092 | $2,700.00 |
 | 1 | Square D Homeline 125 A main-lug load center, 20 space | Home Depot | HOM2040L125PC | $88.88 |
-| 1 | 15 A single-pole CAFCI breaker, 6-pack | Home Depot | HOM115PCAFIC6 | $366.00 |
-| 4 | 20 A single-pole dual-function CAFCI/GFCI breaker | Home Depot | HOM120PDFC | $259.40 |
 | 1 | 60 A 2-pole feeder breaker. HOM260 fits a Homeline service panel only | Soligent | HOM260 | $20.54 |
 | 200 ft | 6 AWG stranded copper THHN, 50 ft each of black, red, white, green | Home Depot | Southwire by the foot | $360.00 |
 | 120 ft | 10 AWG stranded copper THHN, 30 ft each of four colors | Home Depot | 22973299 | $126.00 |
 | 1 lot | 3/4 in. EMT, connectors, straps, and bushings | Home Depot | measured run | $75.00 |
 |  | Installation labor | Owner |  | $0.00 |
-|  | **Parts total** |  |  | **$5,495.81** |
+|  | **Parts total** |  |  | **$4,870.41** |
 
-Each Reliance toggle picks up a circuit that already has a breaker in the main service panel. On utility, that main-panel breaker feeds the Reliance switch, and the Reliance breaker is downstream of it on the way to the room. The 15 A and 20 A single-pole breakers in the new panel are those same circuits moved off the Reliance switch. Copy the amp rating on the main-panel breaker for that circuit. It should match the Reliance breaker beside that toggle. The six 15 A and four 20 A counts are only a stand-in until those main-panel ratings are copied. The 60 A two-pole is the one new breaker in the service panel. It feeds the inverter, and it has to match that panel’s brand. The old branch breakers that only fed the Reliance stay off once those load wires have moved.
+Each Reliance toggle picks up a circuit that already has a breaker in the main service panel. Those 15 A and 20 A branch breakers stay. They are not on this buy list. The 60 A two-pole is the one new breaker in the service panel. It feeds the inverter, and it has to match that panel’s brand.
 
 ## Connections
 

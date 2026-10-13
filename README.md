@@ -32,7 +32,7 @@ Shelf prices checked October 12–13, 2026. Freight, sales tax, and the local pe
 |  | Installation labor | Owner |  | $0.00 |
 |  | **Parts total** |  |  | **$5,495.81** |
 
-The 60 A breaker in the service panel has to match that panel’s brand. The four 20 A and six 15 A branch breakers are a planning mix; each breaker has to match the wire already on that circuit.
+Each Reliance toggle picks up a circuit that already has a breaker in the main service panel. On utility, that main-panel breaker feeds the Reliance switch, and the Reliance breaker is downstream of it on the way to the room. The 15 A and 20 A single-pole breakers in the new panel are those same circuits moved off the Reliance switch. Copy the amp rating on the main-panel breaker for that circuit. It should match the Reliance breaker beside that toggle. The six 15 A and four 20 A counts are only a stand-in until those main-panel ratings are copied. The 60 A two-pole is the one new breaker in the service panel. It feeds the inverter, and it has to match that panel’s brand. The old branch breakers that only fed the Reliance stay off once those load wires have moved.
 
 ## Connections
 

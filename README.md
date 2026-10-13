@@ -30,6 +30,8 @@ Shelf prices checked October 12–13, 2026. Freight, sales tax, and the local pe
 |  | Installation labor | Owner |  | $0.00 |
 |  | **Parts total** |  |  | **$4,870.41** |
 
+The wall battery is one 14.3 kWh module with a 200 A BMS, so it can supply the 6000XP on its own. Signature Solar listed it at $2,700.00 on October 13, 2026.
+
 Each Reliance toggle picks up a circuit that already has a breaker in the main service panel. Those 15 A and 20 A branch breakers stay. They are not on this buy list. The 60 A two-pole is the one new breaker in the service panel. It feeds the inverter, and it has to match that panel’s brand.
 
 ## Connections

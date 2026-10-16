@@ -27,7 +27,34 @@ Each Reliance toggle picks up a breaker that is already in the service panel. On
 
 Range, dryer, water heater, and central air stay on the service panel and are off during an outage.
 
-Plan on about 1,000 W with both refrigerators, the lights, the computer, the TV, and the internet. A kitchen appliance or the hair dryer adds about 1,200 to 1,800 W, so the total is about 2,200 to 2,800 W while one of those is on. Use only one of those five at a time. Put the kitchen refrigerator and the garage refrigerator on opposite legs. Hold each leg near 2,400 W (20 A) so the 30 A bus is not run at its limit for hours.
+Planning watts below are running watts for these loads, with LED lights and an ordinary office desktop. A refrigerator start is about 1,000 W for a fraction of a second and is not included in the running totals.
+
+| Load on at the same time | Watts |
+| --- | ---: |
+| Kitchen refrigerator, compressor running | 150 |
+| Garage refrigerator, compressor running | 150 |
+| Lights in four bedrooms | 160 |
+| Kitchen lights | 60 |
+| Dining room lights | 40 |
+| Lights in two bathrooms | 50 |
+| Garage lights | 40 |
+| Desktop computer and two monitors | 200 |
+| 55-inch TV | 90 |
+| Internet | 30 |
+| **Evening, both compressors on** | **970** |
+
+Overnight, with the computer, TV, and lights off, the internet plus both compressors is about 330 W. Between compressor cycles the draw is about the internet, near 30 W.
+
+One occasional load is added to the 970 W evening total. Only one of these five is used at a time:
+
+| Occasional load | Watts | Evening total |
+| --- | ---: | ---: |
+| Toaster | 1,200 | 2,170 |
+| Keurig | 1,400 | 2,370 |
+| Microwave or hair dryer | 1,500 | 2,470 |
+| Air fryer | 1,700 | 2,670 |
+
+Put the kitchen refrigerator and the garage refrigerator on opposite legs. The air-fryer case, about 2,670 W, is the highest running load. If both compressors start during that use, the brief peak is about 4,400 W. Hold each leg near 2,400 W (20 A) so the 30 A bus is not run at its limit for hours.
 
 ## How it operates
 
@@ -40,18 +67,34 @@ The inverter load port is the only source on the Reliance generator bus. The ten
 
 The Champion plugs into the existing inlet. That inlet lands on the inverter generator port only. It does not land on the Reliance.
 
-## Equipment
+## Parts
 
-| Qty | Item | Role |
-| --- | --- | --- |
-| 1 | EG4 6000XP off-grid inverter | 6,000 W, 120/240 V. Grid port, generator port, and load port. UL 1741. Listed with the battery below as a UL 9540 system. Switching time under 15 ms. Continuous output 25 A at 240 V. Grid and generator bypass relay 50 A. No export to the utility. |
-| 1 | EG4 WallMount Indoor battery, 14.3 kWh, 51.2 V, 280 Ah | UL 1973 battery. 200 A BMS, so one module can supply the 6000XP. Indoor listing. |
-| 1 | EG4 ESS emergency-shutdown initiator for this battery | One-button shutdown for the dwelling, NEC 706.15. |
-| 1 | 60 A two-pole breaker, same brand as the service panel | Feeder to the inverter grid port. |
-| 1 | 30 A two-pole breaker in a listed disconnect enclosure | Protects the load-port feeder and the 30 A Reliance bus. |
-| — | 6 AWG and 10 AWG stranded copper THHN, EMT, fittings | Measured to the run. |
+Shelf prices checked October 16, 2026. Freight, sales tax, and the local permit fee are extra. Wire and conduit are priced for 25 ft runs. Measure the runs before buying. One-hole straps and EMT couplings are bought with the conduit and are not in this total.
 
-About 11 kWh is usable if the battery is kept above a 20 percent reserve. That is about 11 hours at 1,000 W, and about 4 hours if a kitchen appliance or the hair dryer runs the whole time. Start the generator at that point. A second module can be added later on the same inverter.
+The 60 A breaker below fits a Square D Homeline service panel. If the panel is another brand, buy that brand’s 60 A two-pole instead.
+
+| Qty | Item | Source | Part | Extended |
+| --- | --- | --- | --- | --- |
+| 1 | EG4 6000XP off-grid inverter, 6,000 W, 120/240 V | Signature Solar | 1511090 | $1,499.99 |
+| 1 | EG4 WallMount Indoor battery, 14.3 kWh, 51.2 V, 280 Ah | Signature Solar | 1511092 | $2,700.00 |
+| 1 | Indoor conduit box for this battery and the 6000XP | Signature Solar | 1511079 | $92.99 |
+| 1 | 42 in. 2/0 battery cables, red and black, Degson connectors | Dragon Off Grid | WallMount OEM set | $49.98 |
+| 1 | Emergency-stop button, twist release, 1NO + 1NC | Signature Solar | 1566006 | $26.67 |
+| 1 | 25 ft Cat6 cable for the emergency-stop circuit | Home Depot | 345-U6-025BK | $7.99 |
+| 1 | 60 A 2-pole breaker, Homeline panels only | Home Depot | HOM260CP | $18.24 |
+| 1 | 70 A, 2-space indoor load center for the 30 A breaker | Home Depot | HOM24L70SCP | $25.74 |
+| 1 | 30 A 2-pole breaker for that load center | Home Depot | HOM230CP | $18.24 |
+| 90 ft | 6 AWG stranded copper THHN, 30 ft each of black, red, and white, at $1.83/ft | Home Depot | 20493399 | $164.70 |
+| 228 ft | 10 AWG stranded copper THHN at $0.78/ft | Home Depot | 22973299 | $177.84 |
+| 3 | 1 in. x 10 ft EMT | Home Depot | 550210000 | $55.02 |
+| 5 | 3/4 in. x 10 ft EMT | Home Depot | 0550110000 | $52.40 |
+| 4 | 1 in. EMT set-screw connectors | Home Depot | Halex 82710 | $12.88 |
+| 1 | 3/4 in. EMT set-screw connectors, 25-pack | Home Depot | Halex 12301B | $15.98 |
+|  | **Parts total** |  |  | **$4,918.66** |
+
+The 6 AWG covers the 25 ft grid feeder (L1, L2, and neutral) and a 3 ft whip from the inverter load terminals to the 30 A breaker. The 10 AWG covers the grid equipment ground, the whip ground, the 25 ft load feeder, and the 25 ft run from the inlet to the generator port. Buy 10 AWG in black, red, white, and green. The $0.78 price is the black by-the-foot price.
+
+About 11 kWh is usable if the battery is kept above a 20 percent reserve. That is about 11 hours at the 970 W evening load, and about 4 hours at the 2,670 W air-fryer case. Start the generator at that point. A second module can be added later on the same inverter.
 
 ## Conductors
 
@@ -68,7 +111,7 @@ Hold a continuous backup load to 24 A (about 5,760 W). That is 80 percent of the
 - Service-panel 60 A breaker to the inverter grid port only.
 - Existing outdoor inlet to the inverter generator port only.
 - Inverter load port, through the 30 A breaker, to the Reliance generator bus only.
-- Battery positive and negative to the inverter with the cables supplied for this UL 9540 pair, in the battery conduit box. No extra DC disconnect between the battery and the inverter. EG4’s UL 9540 listing is violated by a disconnect inserted in those cables, and the cables can stay energized after shutdown.
+- Battery positive and negative to the inverter on the 2/0 cable set, inside the conduit box. No extra DC disconnect between the battery and the inverter. EG4’s UL 9540 listing is violated by a disconnect inserted in those cables, and the cables can stay energized after shutdown.
 - Emergency-shutdown initiator on the battery communications circuit, mounted where firefighters can reach it, labeled as the ESS emergency shutdown.
 
 ## Neutral and ground

@@ -21,7 +21,7 @@ flowchart LR
 - Georgia Power feeds the main service panel. Range, dryer, water heater, and central air stay on that panel.
 - A new 60 A two-pole breaker in the main panel feeds the inverter GRID port with L1, L2, neutral, and ground, in 6 AWG copper. The breaker matches the panel brand.
 - The Champion stays outdoors and plugs into the existing PB30 inlet. The inlet conductors move off the Reliance and land only on the inverter GEN port, in 10 AWG.
-- The 14.3 kWh wall battery connects to the inverter on the factory DC cables. Its 200 A BMS supplies the inverter. The emergency-shutdown initiator is on the battery communications circuit.
+- The 14.3 kWh wall battery connects to the inverter on the 2/0 cable set, inside the conduit box. Its 200 A BMS supplies the inverter. The emergency-shutdown button is on the battery communications circuit.
 - The inverter LOAD port feeds a 30 A two-pole breaker, then the Reliance generator lugs, with L1, L2, neutral, and ground, in 10 AWG. That bus is rated 30 A.
 - The ten toggles stay on GEN. A toggle returned to LINE puts that one circuit back on its main-panel breaker.
 

@@ -96,6 +96,22 @@ The 6 AWG covers the 25 ft grid feeder (L1, L2, and neutral) and a 3 ft whip fro
 
 About 11 kWh is usable if the battery is kept above a 20 percent reserve. That is about 11 hours at the 970 W evening load, and about 4 hours at the 2,670 W air-fryer case. Start the generator at that point. A second module can be added later on the same inverter.
 
+## Alternative inverter and battery
+
+Sol-Ark 5K-2P-N with three Pytes V5 modules. Same wiring: utility on the grid port, Champion on the generator port, load port through the 30 A breaker to the Reliance. Prices checked October 16, 2026.
+
+| Qty | Item | Source | Part | Extended |
+| --- | --- | --- | --- | --- |
+| 1 | Sol-Ark 5K-2P-N, 5,000 W, 120/240 V | RES Supply | 5K-2P | $4,699.00 |
+| 3 | Pytes V5, 5.12 kWh, 51.2 V, 100 Ah each | Current Connected | V5 | $4,350.00 |
+|  | **Inverter and batteries** |  |  | **$9,049.00** |
+
+The 5K-2P continuous output is 20.8 A, under the 30 A Reliance bus. Its 10-second surge is 16,000 VA, which covers the 4,400 W refrigerator-start peak. Transfer to battery is 4 ms. It is listed UL 1741 SB. Pytes lists the 5K with these batteries as a UL 9540 system. Three modules are 15.36 kWh, about 12.3 kWh above a 20 percent reserve: about 13 hours at 970 W and about 4.5 hours at 2,670 W. Two modules can supply the inverter’s 120 A battery current, and the runtime drops to about 8 hours at 970 W.
+
+The grid and generator passthrough breaker inside the Sol-Ark is 63 A. The external 30 A breaker stays, because the Reliance is 30 A. The breakers, THHN, and EMT in the parts list above stay. The EG4 conduit box, Degson cable set, and EG4 stop button do not. Battery cables are the ones specified for the Pytes-to-Sol-Ark connection. Bond neutral to ground only once, at the service panel, and leave the generator neutral floating.
+
+Some dealers listed the 5K-2P sold out on October 16, 2026. The Pytes modules were temporarily out of stock at Current Connected. Georgia Power still asks for a separate mechanically interlocked transfer switch. This inverter’s transfer is internal, the same class of device as the 6000XP relay.
+
 ## Conductors
 
 Terminals on breakers and on this inverter are used at the 75°C column.
